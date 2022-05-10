@@ -1,0 +1,28 @@
+.popular-products {
+    display: inline-block;
+    color: black;
+}
+
+.popular-products:hover {
+    color: #ff2159;
+}
+
+.decorative-line {
+    background-image: linear-gradient(var(--line-color), var(--line-color));
+    background-repeat: no-repeat;
+    background-size: 100% var(--line-height);
+    background-position: 0 center;
+}
+
+.my-element {
+    background-image: linear-gradient(
+        to right,
+        #ff2159,
+        white 45%,
+        white 55%,
+        #ff2159
+    );
+    background-repeat: no-repeat;
+    background-size: 100% 2px;
+    background-position: 0 center;
+}

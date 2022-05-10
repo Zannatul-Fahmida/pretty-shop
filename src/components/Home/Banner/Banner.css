@@ -1,0 +1,8 @@
+.banner-bg {
+    /* height: 200px; */
+    height: 100vh;
+    background-image: url('../../../images/pretty-shop-banner.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
