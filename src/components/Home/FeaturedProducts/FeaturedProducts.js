@@ -1,24 +1,23 @@
 import React from 'react';
 import { Container } from 'react-bootstrap';
-import { Link } from 'react-router-dom';
-import './PopularProducts.css';
 import { GiPawHeart } from 'react-icons/gi';
-import PopularProduct from '../PopularProduct/PopularProduct';
+import { Link } from 'react-router-dom';
+import FeaturedProduct from '../FeaturedProduct/FeaturedProduct';
 
-const PopularProducts = () => {
+const FeaturedProducts = () => {
     return (
-        <Container className="my-5">
+        <Container className="my-5">          
             <Link to="/" className="text-decoration-none">
-                <h2 className="popular-products">Products of The Week</h2>
+                <h2 className="popular-products">Featured Products</h2>
             </Link>
             <div className='d-flex justify-content-center'>
-            <div className="w-50">
+                <div className="w-50">
                     <h2 style={{color: '#ff2159'}} className="my-element decorative-line"><GiPawHeart /></h2>
                 </div>
             </div>
-            <PopularProduct />
+            <FeaturedProduct />
         </Container>
     );
 };
 
-export default PopularProducts;
+export default FeaturedProducts;

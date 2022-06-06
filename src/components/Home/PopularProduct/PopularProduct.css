@@ -1,3 +1,21 @@
-.food1:hover{
-    background-image: url('../../../images/dog\ food.webp');
+.popular-img img{
+    content: url("/src/images/dog\ food\ single.png");
+}
+.card:hover .popular-img img{
+    content: url("/src/images/dog\ food.webp");
+}
+.popular-img2 img{
+    content: url("/src/images/cat\ food.png");
+}
+.card:hover .popular-img2 img{
+    content: url("/src/images/cat\ food2.png");
+}
+.card Button{
+    display: none;
+}
+.card:hover Button{
+    display: block;
+}
+.cursor:hover{
+    cursor: pointer;
 }

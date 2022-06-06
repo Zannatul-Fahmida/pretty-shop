@@ -1,0 +1,12 @@
+.category-circle{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(243, 239, 239);
+    border-radius: 100%;
+    cursor: pointer;
+    transition: width 3s;
+}
+.category-circle:hover{
+    width: 150px;
+    height: 150px;
+}
